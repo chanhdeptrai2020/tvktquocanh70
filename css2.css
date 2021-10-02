@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+#stlienlac{
+	margin-bottom: 100px;
+	font: italic;
+	font-size: 30px;
+	margin-top: 200px;
+	color:#000000;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-display: fallback;
+	background-color: #D75052;
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+	
+	
+	
+
+}
+#stlienlac a{
+	background-color: aquamarine;
+	opacity: 0.5%;
+}
+#aa a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000000;
+	margin-top: 0px;
+}
+a{
+	text-decoration: none;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+}
+.container{
+	margin: 0px auto;
+	max-width: 960px;
+}
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#FFFFFF;
+	background-color: #000;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 20px 0px;
+	transition: all 0.5s ease-in-out;
+}
+header.sticky{
+	background: #FFFFFF;
+	opacity: 0.9;
+	padding: 15px 0px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5)
+	
+}
+header.sticky logo{
+	color: #000000;
+}
+
+header.sticky#menu a{
+	color:#000000;
+}
+.inner-header{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+#logo{
+	color:#000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 25px;
+	
+}
+ul#menu{
+	display: flex;
+}
+ul#menu a{
+	text-transform: uppercase;
+	padding: 10px 20px;
+	color:#000000;
+	display: block;
+	font-weight: bold;
+}
+#banner{
+	background:;
+	min-height: 300px;
+	width: 100%;
+}
+#content h1{
+	padding: 30px 0px;
+	margin-bottom: 1.2rem;
+	
+	}
